@@ -1,0 +1,80 @@
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.top-bannar{
+    background-image: url("images/developer.png"),url("images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom left,bottom right;
+    background-color: rgb(255, 248, 243);
+}
+nav h3{
+    color: rgb(24, 24, 24);
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 230px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+.Marry{
+    color:rgb(253, 110, 10) ;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 51px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.color-code{
+    color: #474747;
+}
+.btn-primary{
+    background-color: #FD6E0A;
+    color: #FFFFFF;
+    font-weight: 700;
+    padding: 18px 35px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+}
+.bannar{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+.bannar-greeding{
+    font-weight: 600;
+    font-size: 45px;
+    color: rgb(71, 71, 71);
+}
+.bannar-title{
+    color: rgb(24, 24, 24);
+    font-weight: 700;
+    font-size: 85px;
+}
+.bannar-description{
+    color: rgb(117, 117, 117);
+    font-weight: 400;
+    font-size: 18px;
+}
+.bannar-image{
+    width: 584px;
+}
+.bannar-containar{
+    max-width: 585px;
+}
