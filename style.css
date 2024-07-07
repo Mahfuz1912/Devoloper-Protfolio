@@ -146,3 +146,8 @@ main section{
     margin-top: 130px;
     margin-bottom: 130px;
 }
+ 
+.summary-Container{
+    display: flex;
+    gap: 20px;
+}
