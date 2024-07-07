@@ -8,7 +8,7 @@
 .top-bannar{
     background-image: url("images/developer.png"),url("images/header_bg.png");
     background-repeat: no-repeat;
-    background-position: bottom left,bottom right;
+    background-position: left center,bottom right;
     background-color: rgb(255, 248, 243);
 }
 nav h3{
@@ -18,7 +18,8 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 50px 230px;
+    margin: 0px 0px 50px 230px;
+    
 }
 nav ul{
     display: flex;
@@ -50,6 +51,7 @@ nav ul li a{
     font-size: 20px;
     border-radius: 5px;
     border: none;
+    margin: 0;
 }
 .bannar{
     display: flex;
@@ -77,4 +79,70 @@ nav ul li a{
 }
 .bannar-containar{
     max-width: 585px;
+}
+ /* main */
+ .main{
+    max-width: 1140px;
+    margin: 0 auto;
+ }
+ .secondary-bg{
+    background-color:rgb(255, 248, 243) ;
+ }
+
+.font-title{
+    font-size: 35px;
+    font-weight: 700;
+    color: rgb(24, 24, 24);
+}
+.text{
+    text-align: center;
+}
+.All-font{
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(117, 117, 117);
+}
+.About-font1{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(117, 117, 117);
+}
+.About-font2{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(71, 71, 71);
+}
+/* About */
+.About{
+    border-radius: 10px;
+    padding: 131px 156px;
+    text-align: center;
+    margin-top: 130px;
+}
+
+.about-item{
+    display: flex;
+    justify-content: space-around;
+}
+.about-footer{
+    margin-top: 30px;
+}
+.skill-container{
+    display: flex;
+    gap: 24px;
+}
+.font-what-i-do{
+    font-weight: 400;
+    font-size: 16px;
+    
+}
+.skill{
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+
+}
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
 }
